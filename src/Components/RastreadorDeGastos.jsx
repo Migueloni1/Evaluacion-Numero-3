@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./RastreadorEstilo.css";
 /* en la descripcion le deje que tambien pudiera escribir numero ya que aveces puede ser un codigo o por ejemplo en caso de gastos comunes puede ser 2 gas o en gasto
 medico 2 paracetamol o otros */
+/* recuerde instalar bostrap icons porfavor gracias profesor */
 const RastreadorDeGastos = () => {
   const [gastos, setGastos] = useState([]);
   const [descripcion, setDescripcion] = useState("");
